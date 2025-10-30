@@ -1,4 +1,4 @@
 playwright==1.44.0
-aiohttp
+aiohttp==3.9.5
 requests
 greenlet==3.0.3
