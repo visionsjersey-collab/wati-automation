@@ -1,5 +1,5 @@
 services:
-  - type: worker
+  - type: web
     name: wati-auto-bot
     env: python
     buildCommand: |
