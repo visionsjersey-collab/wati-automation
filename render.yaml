@@ -6,7 +6,7 @@ services:
     buildCommand: |
       pip install --upgrade pip setuptools wheel
       pip install playwright==1.44.0 greenlet==3.0.3
-      python -m playwright install --with-deps chromium
+      python -m playwright install chromium
     startCommand: python main.py
     envVars:
       - key: PYTHON_VERSION
